@@ -2,6 +2,7 @@
     package="com.game.flutter_grapgql">
    <application
         android:label="flutter_grapgql"
+        android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
