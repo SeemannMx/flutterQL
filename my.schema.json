@@ -116,7 +116,7 @@
               "deprecationReason": null
             },
             {
-              "name": "firstName",
+              "name": "firstName1",
               "description": "",
               "args": [],
               "type": {
