@@ -20,9 +20,8 @@ type Company {
 }
 
 type Employee {
-  #id: ID
-  id: ID! @fake(type: uuid)
-  firstName1: String @fake(type: firstName, locale: en_CA)
+  id: ID
+  firstName: String @fake(type: firstName, locale: en_CA)
   lastName: String @fake(type: lastName, locale: en_CA)
   address: String @fake(type: streetAddress, options: { useFullAddress: true })
   subordinates: [Employee!] @listLength(min: 0, max: 3)
